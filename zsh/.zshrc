@@ -116,3 +116,6 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# Enable vim keybindings
+bindkey -v
+
