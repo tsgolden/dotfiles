@@ -5,3 +5,4 @@ alias du='du -h'
 alias mkdir='mkdir -p'
 alias lines='wc -l'
 alias diff="colordiff"
+alias tv="tidy-viewer"
