@@ -6,11 +6,11 @@ if [ ! -z "$1" ]; then
             # Ignore hidden files and directories
             if [[ $dir != \.* ]]; then
                 if [[ "$1" == "work" ]] && [[ $dir == *work ]]; then
-                    stow "$dir"
+                    stow -R -v "$dir"
                 elif [[ "$1" == "personal" ]] && [[ $dir == *personal ]]; then
-                    stow "$dir"
+                    stow -R -v "$dir"
                 elif [[ $dir != *work ]] && [[ $dir != *personal ]]; then
-                    stow "$dir"
+                    stow -R -v "$dir"
                 fi
             fi
         done
