@@ -116,6 +116,8 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+export STOW_DIR="$HOME/dotfiles"
+
 # Enable vim keybindings
 bindkey -v
 
